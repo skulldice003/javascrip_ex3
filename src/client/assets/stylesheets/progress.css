@@ -1,0 +1,109 @@
+/* PROGRESS PAGE SPECIFIC STYLES */
+
+/* -------------------  MOBILE  --------------------- */
+header {
+  background-image: url('https://motorsport-magazine.s3.eu-west-1.amazonaws.com/wp-content/uploads/2019/05/24162129/roborace_first_driverless_race.jpg');
+}
+
+main#two-columns {
+    margin: 50px 0;
+    display: flex;
+}
+
+main#two-columns section {
+    max-width: 50vw;
+}
+/*  */
+#gas-peddle {
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 20px;
+    letter-spacing: 4px;
+    position: relative;
+    background-color: #16a085;
+    border: none;
+    color: #fff;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    transition-duration: 0.4s;
+    overflow: hidden;
+    box-shadow: 0 5px 15px #193047;
+    border-radius: 4px;
+  }
+  
+  #gas-peddle:hover {
+    background: #fff;
+    box-shadow: 0px 2px 10px 5px #1abc9c;
+    color: #000;
+  }
+  
+  #gas-peddle:after {
+    content: "";
+    background: #1abc9c;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+  }
+  
+  #gas-peddle:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+  }
+  
+  #gas-peddle:focus { outline:0; }
+/*  */
+footer {
+    height: 50px;
+    background-color: black;
+    color: antiquewhite;
+    text-align: center;
+  }
+  .footer-text {
+    margin-top: 20px;
+  }
+
+section#accelerate button {
+    height: 300px;
+    width: 300px;
+    margin: 30px auto;
+    border-radius: 180%;
+    background-color: green;
+    border-color: rgb(14, 166, 6);
+    cursor: pointer;
+    border: none;
+}
+section#accelerate button:focus{
+    outline: none;
+}
+section#accelerate button:active{
+    border-style: none;
+}
+
+#big-numbers {
+    font-weight: bolder;
+    font-size: 70px;
+}
+
+/* -------------------  TABLET  --------------------- */
+@media (min-width: 768px) {
+
+}
+
+/* -------------------  DESKTOP  -------------------- */
+
+@media (min-width: 1224px) {
+}
+
+/* -------------------  LARGE SCREENS  -------------- */
+
+@media (min-width: 1824px) {
+}

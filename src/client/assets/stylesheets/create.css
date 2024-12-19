@@ -1,0 +1,23 @@
+/* CREATE PAGE SPECIFIC STYLES */
+
+/* -------------------  MOBILE  --------------------- */
+
+header {
+  background-image: url('https://www.bolton-le-moorscarclub.co.uk/wp-content/uploads/2016/08/Race-cars.jpg');
+}
+
+
+/* -------------------  TABLET  --------------------- */
+@media (min-width: 768px) {
+
+}
+
+/* -------------------  DESKTOP  -------------------- */
+
+@media (min-width: 1224px) {
+}
+
+/* -------------------  LARGE SCREENS  -------------- */
+
+@media (min-width: 1824px) {
+}
