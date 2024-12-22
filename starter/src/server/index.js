@@ -4,7 +4,7 @@ const fetch = require('node-fetch')
 const path = require('path')
 
 const app = express()
-const port = 3002
+const port = 3001
 
 // setup the ability to see into response bodies
 app.use(bodyParser.urlencoded({ extended: false }))
